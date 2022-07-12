@@ -106,11 +106,13 @@
             </h2>
             <p>
               LTHT Research & Innovation study overview and staff performance
-              exploration in PowerBI.
+              exploration in PowerBI. <br />Data used for the visualisations and
+              performance metrics are taken from EDGE, a research management
+              system.
             </p>
           </header>
           <a href="#" target="_blank" class="image main"
-            ><img src="images/R&I_Dashboard.png" alt=""
+            ><img src="images/PowerBI-R&I-July2022.png" alt=""
           /></a>
 
           <ul class="actions special">
@@ -140,7 +142,7 @@
             <header>
               <h2>
                 <a href="#"
-                  >Leeds Covid Analysis <br />
+                  >LTHT Covid-19 Patient Demographics Analysis <br />
                   - SQL
                 </a>
               </h2>
@@ -149,16 +151,16 @@
               ><img src="images/Covid_SQL.png" alt=""
             /></a>
             <p>
-              Covid Analysis for Leeds Teaching Hospitals. The analysis looks at
-              key demographics of Covid related patient data using SQL Server
-              and encompasses foundational to advanced SQL skills and data
-              cleaning practices.
+              Covid-19 Analysis for Leeds Teaching Hospitals. The analysis looks
+              at key demographics of Covid-19 related patient data using SQL
+              Server and encompasses foundational to advanced SQL skills and
+              data cleaning practices.
             </p>
             <ul class="actions special">
               <!-- <li><a target="_blank" href="#" class="button">Project</a></li> -->
               <li>
                 <a
-                  href="#"
+                  href="https://github.com/SunilNila/LEEDS-COVID-19-ANALYSIS---SQL"
                   target="_blank"
                   class="button icon brands alt fa-github"
                   >View in github</a
@@ -170,23 +172,22 @@
             <header>
               <h2>
                 <a href="#"
-                  >LTHT Covid Dashboards<br />
+                  >LTHT Covid-19 Patient Demographics Dashboards<br />
                   - Tableau</a
                 >
               </h2>
             </header>
             <a href="#" class="image fit"
-              ><img src="images/Tableau_Dashboard.png" alt=""
+              ><img src="images/Covid_Tableau_Dash_Jul2022.png" alt=""
             /></a>
             <p>
-              Based upon the analysis of LTHT Covid related patient data, I
-              create dashboards of some on the key findings and illustrate this
-              in Tableau.
+              Using the LTHT Covid-19 patient demographics analysis, I have
+              created dashboards within Tableau to visuale the key findings.
             </p>
             <ul class="actions special">
               <li>
                 <a
-                  href="https://public.tableau.com/app/profile/sunil5173/viz/LTHTTableauDashboard/Dashboard1?publish=yes"
+                  href="https://public.tableau.com/app/profile/sunil5173/viz/LTHT_Covid_Dashboard/LTHTCovid-19Dashboard?publish=yes"
                   target="_blank"
                   class="button"
                   >View Project</a
@@ -194,7 +195,7 @@
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://github.com/SunilNila/LTHT-COVID-19-Patient-Demographics---Tableau-Dashboard"
                   target="_blank"
                   class="button icon brands alt fa-github"
                   >View in github</a
@@ -206,20 +207,31 @@
             <header>
               <h2>
                 <a href="#"
-                  >Research and Innovation Study and Performance analysis<br />
-                  - Python</a
+                  >T-test - LTHT Covid-19 Ages of Deaths against UK Covid-19
+                  Mean Death Age <br />
+                  - SQL Server & Excel</a
                 >
               </h2>
             </header>
             <a href="#" class="image fit"
-              ><img src="images/R&IStudies_Pandas.png" alt=""
+              ><img src="images/T-testing.png" alt=""
             /></a>
             <p>
-              Using the data from the R&I dashboards project, I take a deeper
-              analysis of KPI's using Python within Jupityer Notebook.
+              To see if the LTHT Covid-19 death age ranges are in line with the
+              UK Covid-19 mean death range of 80 I conduct a T-test. I take the
+              age ranges from years 2020 until 2022 using SQL Server, generating
+              a random sample of 20 for each year to be used for a T-test within
+              Excel.
             </p>
             <ul class="actions special">
-              <li><a href="#" class="button">View Project</a></li>
+              <li>
+                <a
+                  href="https://github.com/SunilNila/T-Testing-in-Excel"
+                  target="_blank"
+                  class="button icon brands alt fa-github"
+                  >View in github</a
+                >
+              </li>
             </ul>
           </article>
 
@@ -233,16 +245,125 @@
               </h2>
             </header>
             <a href="#" class="image fit"
-              ><img src="images/Amendment_Sender.png" alt=""
+              ><img src="images/AmendmentSender_Jul2022.png" alt=""
             /></a>
             <p>
-              Automating Research & Innovation work processes in Python.<br />
-              This project takes the required inputs and attachments for
-              acknowledging study amendments and automates this for a streamline
-              process.
+              This project aims to automate the Research & Innovation daily work
+              processes. This app takes user input and attachments in order to
+              our email our stakeholders study amendment confirmations, this
+              task at present is completed manually and our team process around
+              20 per day. The application automates this task, eliminating error
+              and allows for the process to be complete faster and in a more
+              streamlined fashion as opposed to the current process. The
+              application is built in Python, using the library Tkinter for the
+              user interface.
             </p>
             <ul class="actions special">
-              <li><a href="#" class="button">View Project</a></li>
+              <li>
+                <a
+                  href="https://github.com/SunilNila/LTHT_ResearchStudy_AmendmentSender"
+                  target="_blank"
+                  class="button icon brands alt fa-github"
+                  >View in github</a
+                >
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <header>
+              <h2>
+                <a href="#"
+                  >R&I - StudyTimeline Predictor<br />
+                  - Python & Machine Learning</a
+                >
+              </h2>
+            </header>
+            <a href="#" class="image fit"
+              ><img src="images/StudyTimeline_ML.png" alt=""
+            /></a>
+            <p style="font-size: 16px">
+              Within R&I our team are often asked by internal and external
+              stakeholders how long a study will take to open once in setup. Our
+              team cannot answer this is it is dependent upon a number of
+              variables from the approvals associated with the study that need
+              to be reviewed by clinical leads, to the pro-activeness of the
+              team leading on the study. The timeline can take 2 month to over a
+              year dependent on the variables described. I comprised open study
+              data from two research systems used at LTHT; OneForm to gather
+              approval metrics and EDGE to retrieve study information asociated
+              with the approval metrics. I amalgamated the two datasets within
+              SQL Server based on the unique identifier for a given study. With
+              the historic open study data, I was able to develop a Machine
+              Learning model within Google Collabs to be able to predict the
+              timeline of a study based on the following variables the user
+              inputs; Clinical Service Unit(A&E, Cancer, Radiology etc), the
+              number of clinical approvals required, type of study(PHD, internal
+              study, external commerical study) and whether the study is for
+              Children or Adults. A user interface for the ML Model was built
+              using the Python library Streamlit. The app is hosted on a Heroku
+              webserver so that members of R&I can use the app when they need a
+              timeline for a study.
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://ltht-studytimeline-predictor.herokuapp.com/"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://github.com/SunilNila/R-I_StudyTimeLine_Predictor"
+                  target="_blank"
+                  class="button icon brands alt fa-github"
+                  >View in github</a
+                >
+              </li>
+            </ul>
+          </article>
+
+          <article>
+            <header>
+              <h2>
+                <a href="#"
+                  >R&I DASHBOARD<br />
+                  - Excel</a
+                >
+              </h2>
+            </header>
+            <a href="#" class="image fit"
+              ><img src="images/R&I_Dashboard_Excel.png" alt=""
+            /></a>
+            <p>
+              Taking the data used to develop R&I Dashboards within PowerBI, I
+              developed similar dashboards visualising staff performance and
+              metrics for studies in setup and opened studies. Being able to
+              replicate and develop dashboards and visualisations within
+              different tools and software allows for me to learn new skills and
+              build upon pre-existing projects that I have created.
+            </p>
+            <ul class="actions special">
+              <li>
+                <a
+                  href="https://nhs-my.sharepoint.com/:x:/r/personal/sunil_nila_nhs_net/_layouts/15/Doc.aspx?sourcedoc=%7B178BD519-B036-4D37-921E-6E273856BF8F%7D&file=Excel%20R%26I%20Dashboard.xlsx&action=default&mobileredirect=true&cid=c08c2d37-f4a6-4156-993d-bdf80f6c738c"
+                  target="_blank"
+                  class="button"
+                  >View Project</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://github.com/SunilNila/R-I_Dashboard_Excel"
+                  target="_blank"
+                  class="button icon brands alt fa-github"
+                  >View in github</a
+                >
+              </li>
             </ul>
           </article>
         </section>
